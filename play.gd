@@ -23,11 +23,11 @@ func _ready() -> void:
 	var forward_direction = -self.global_transform.basis.z.normalized()
 	
 	# Position the ball in front of the arm along the forward direction
-	ball.global_position = self.global_transform.origin + forward_direction * 2 + Vector3(0, 0.5, 0)
+	ball.global_position = self.global_transform.origin + forward_direction * 1.2 + Vector3(0, 0.5, 0)
 	print("Ball repositioned to: ", ball.global_position)
 	
 	# Position the grabbing area in front of the arm along the forward direction
-	grab_area.global_position = self.global_transform.origin + forward_direction * 1.5 + Vector3(0, 0.5, 0)
+	grab_area.global_position = self.global_transform.origin + forward_direction * 1.2 + Vector3(0, 0.5, 0)
 	print("GrabArea repositioned to: ", grab_area.global_position)
 	
 	# Store initial positions
