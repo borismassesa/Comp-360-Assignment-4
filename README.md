@@ -18,17 +18,17 @@ This project demonstrates a robotic arm that picks up a ball, rotates, and drops
 
 ## Breakdown of Tasks & Contributions
 
-**Marwa : Environment & Camera Setup**
+**Marwa,Boris,Karan: Environment & Camera Setup**
 - Positioned `main.tscn` elements (arm, ball, ramp).
 - Set up camera to view the entire action.
 - Arranged lighting and environment for visibility.
 
-**Boris : Arm Animation & State Machine**
+**Boris,Karan,Marwa : Arm Animation & State Machine**
 - Created state machine for the arm (`IDLE`, `GRABBING`, `ROTATING`, `RELEASING`, `RESETTING`).
 - Imported “grab” and “letgo” animations.
 - Implemented logic to synchronize grabbing with animation states.
 
-**Karan : Ball Physics & Ramp Design**
+**Karan,Marwa,Boris : Ball Physics & Ramp Design**
 - Created `Ball` as a `RigidBody3D` with `CollisionShape3D`.
 - Adjusted ball properties (freeze/unfreeze) and verified it rolls smoothly down the ramp.
 - Ensured ramp has correct collision shapes for a smooth pathway.
