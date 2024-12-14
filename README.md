@@ -11,22 +11,6 @@ This project demonstrates a robotic arm that picks up a ball, rotates, and drops
 - State machine controlling the arm’s workflow: IDLE, GRABBING, ROTATING, RELEASING, RESETTING.
 - Integration of animations (“grab” and “letgo”) with physics-based ball movement.
 
-## Project Structure
-
-project/
-├─ scenes/
-│  ├─ main.tscn           # Main scene assembling arm, ball, ramp, environment
-│  ├─ robot_arm_scene.tscn
-│  ├─ ball_scene.tscn
-│  └─ ramp_scene.tscn
-├─ scripts/
-│  ├─ play.gd             # Arm logic, grabbing, rotating, and releasing ball
-│  ├─ (other scripts)
-└─ assets/
-├─ models/
-├─ textures/
-└─ animations/
-
 ## Setup & Run
 1. Open `main.tscn` in Godot 4.x.
 2. Press the Play button to start.
