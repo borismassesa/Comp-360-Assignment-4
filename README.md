@@ -1,6 +1,4 @@
-# Comp-360-Assignment-4
-
-# Robotic Arm Ball Transfer
+# Comp-360-Assignment-4 -- Robotic Arm Ball Transfer
 
 ## Overview
 This project demonstrates a robotic arm that picks up a ball, rotates, and drops it onto a ramp. The ball then rolls down pathways, eventually returning to the base of the robot arm. This scenario uses animations, physics interactions, and environment setup in Godot.
